@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<meta charset="UTF-8" />
+<!-- ci meta ag do title nepokazuvav  -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Simply Chocolate offers high-quality, handmade chocolate bars with unique flavors like Orange, Sea Salt, and Roasted Mats. Pure ingredients for a moment of pure delight. Shop our bestsellers online." />
+<meta name="keywords" content="simply chocolate, artisan chocolate, buy chocolate online, dark chocolate bars, milk chocolate, organic sweets, handmade confectionery, chocolate gift sets, gourmet chocolate, cocoa products" />
+<title>Simply Chocolate</title>
+
+    <link rel="shortcut icon" href="./images/logo.svg" type="image/svg+xml" />
+    <!--google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+    <!-- modern normalize styles -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"/>
+    <!-- custom styles -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+
+  <body>
+    <header class="header" id="home">
+        <!-- a+(nav>ul>li*3>a)+(ul>li*3>a>img[src=""width=""height=""]) -->
+      <a href="./index.html" class="logo">
+        <!-- <i>=dekoratyvnyj tekst nahyl yak italik -->
+        <i>SIMPLY</i> CHOCOLATE
+        <img class="logo-icon" src="./images/logo.svg" alt="Site Logo" width="24" height="24" />
+      </a>
+      <nav class="main-nav">
+       <ul class="main-nav-list">
+          <li class="main-nav-item">
+            <a  class="main-nav-link" href="#home">Home</a>
+          </li >
+          <li class="main-nav-item">
+            <a class="main-nav-link" href="#made">How it&#39;s Made?</a>
+          </li>
+          <li class="main-nav-item">
+            <a class="main-nav-link" href="#reviews">Chocolate is loved</a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="social">
+        <li class="social-item" >
+            <!-- aria-label="link to facebook" dla opysu v alt-->
+
+             <!-- target="_blank" sob otkryvav v inshom vikni sylku -->
+              <!-- rel="noopener noreferrer" zahyschae vid pidminy posylannya bezpeka korystuvacham -->
+          <a class="social-link" href="https://facebook.com" aria-label="link to facebook" target="_blank" rel="noopener noreferrer">
+            <img class="social-icons" src="./images/icons/facebook.svg" alt="facebook icon" width="24" height="24"/>
+        </a>
+        </li>
+        <li class="social-item">
+          <a class="social-link" href="https://instagram.com" target="_blank" rel="noopener noreferrer"
+            >
+            <img class="social-icons" src="./images/icons/instagram.svg" aria-label="link to instagram"  alt="instagram icon" width="24" height="24">
+            </a>
+        </li>
+        <li class="social-item">
+          <a class="social-link" href="https://twitter.com" aria-label="link to twitter" target="_blank" rel="noopener noreferrer">
+            
+            <img class="social-icons" src="./images/icons/twitter.svg" alt="twitter icon" width="24" height="24">
+        </a>
+        </li>
+      </ul>
+    </header>
+
+    <main>
+        <!-- Hero section -->
+        <section class="hero" id="hero">
+            <h1 class="hero-title">Treat yourself or a loved one to our finest ingredients for a moment of pure delight!</h1>
+            <button class="btn btn-filled" type="button">Buy now</button>
+            <button class="btn btn-outlined primary" type="button">How it&#39;s made</button>
+            <a class="hero-link"  href="#benefits">scroll down
+                <img class="hero-link-icon" src="./images/icons/arrow-down.svg" alt="arrow down icon" width="22" height="22" />
+            </a>
+        </section>
+
+        <!-- Benefits section -->
+        <section class="benefits" id="benefits">
+            <!-- <hr/> robe rysku cherez ves ekran yak dekor-->
+             <!-- logik heading -->
+            <h2 hidden>Benefits title</h2>
+            <ul class="benefits-list">
+                <li class="benefits-item">
+                    <h3 class="benefits-subtitle">Unsurpassed taste</h3>
+                    <p class="benefits-desc">Crafted with the finest quality cocoa beans and a dedication to perfection, each bite is a decadent experience that simply cannot be matched. Savor the richness and complexity of our Unsurpassed Taste and discover a new level of chocolate bliss.</p>
+                </li>
+                <li class="benefits-item">
+                    <h3 class="benefits-subtitle">Affordable price</h3>
+                    <p class="benefits-desc">Indulge in high-quality chocolate without breaking the bank with Simply Chocolate's selection of affordable treats. Enjoy mouth-watering truffles and velvety chocolate bars without sacrificing taste or quality. Browse our selection and indulge in affordable luxury today.</p>
+                </li>
+                <li class="benefits-item">
+                    <h3 class="benefits-subtitle">Own production</h3>
+                    <p class="benefits-desc">We take pride in our own production process, ensuring that every step is carefully crafted to perfection. From selecting the finest ingredients to handcrafting each piece, our attention to detail is evident in every bite.</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Ingredients section -->
+        <section class="ingredients section" id="ingredients">
+            <!--    h2+ul>li*7>img[src="./images/ingredients/img-$.png"width="212"height="160"]+h3 -->
+            <h2 class="ingredients-title section-title">IT ALL ADDS UP TO ONE EXCEPTIONAL <span class="accent">TASTE</span> SENSATION</h2>
+            <!-- <ul style="display: grid; grid-template-columns: repeat(3, 1fr)"> dlz kartynok v ryadok -->
+            <ul class="ingredients-list" style="display: grid; grid-template-columns: repeat(3, 1fr)">
+                <li class="ingredients-item">
+                    <img class="ingredients-ill" style="border: 2px solid tomato;" alt="Pieces of milk chocolate with chocolate shavings on a dark background." src="./images/ingredients/img-1.png"  width="212" height="160">
+                    <h3 class="ingredients-caption">MILK CHOCOLATE</h3> 
+                </li>
+                <li class="ingredients-item">
+                    <img class="ingredients-ill" style="border: 2px solid lightgreen;" alt="A white glass milk bottle icon on a dark background." src="./images/ingredients/img-2.png"  width="212" height="160">
+                    <h3 class="ingredients-caption">MILK</h3>
+                </li>
+                <li class="ingredients-item">
+                    <img class="ingredients-ill" style="border: 2px solid darkmagenta;" alt="Whole and shelled hazelnuts on a dark checkered background." src="./images/ingredients/img-3.png"  width="212" height="160">
+                    <h3 class="ingredients-caption">NUTS</h3>
+                </li>
+                <li class="ingredients-item">
+                    <img class="ingredients-ill" style="border: 2px solid red;" alt="A pile of milk chocolate chips on a dark checkered background -SEMI-SWEET CHOCOLATE." src="./images/ingredients/img-4.png"  width="212" height="160">
+                    <h3 class="ingredients-caption">SEMI-SWEET CHOCOLATE</h3>
+                </li>
+                <li class="ingredients-item">
+                    <img class="ingredients-ill" style="border: 2px solid red;" alt="Whole and opened cocoa pods with beans inside and green leaves on a dark background - CACAO." src="./images/ingredients/img-5.png" width="212" height="160">
+                    <h3 class="ingredients-caption">CACAO</h3>
+                </li>
+                <li class="ingredients-item">
+                    <img class="ingredients-ill" style="border: 2px solid red;" alt="A bunch of fresh pink raspberries with green leaves on a dark background." src="./images/ingredients/img-6.png"  width="212" height="160">
+                    <h3 class="ingredients-caption">RASPBERRY</h3>
+                </li>
+                <li class="ingredients-item">
+                    <img class="ingredients-ill" style="border: 2px solid red;" alt="A half of a coconut and a slice with green leaves on a dark background COCONUT OIL." src="./images/ingredients/img-7.png"  width="212" height="160">
+                    <h3 class="ingredients-caption">COCONUT OIL</h3>
+                </li>
+            </ul>
+        </section>
+
+        <!-- maid sections -->
+        <section class="made section" id="made">
+            <h2 class="made-title section-title">HOW IT'S <span class="accent">MADE</span>?</h2>
+            <img class="made-ill" src="./images/made/made.jpg" alt="A close-up shot of liquid chocolate dripping from a metal whisk into a stainless steel bowl held by a person" width="600" height="400" />
+            <h3 class="made-caption">Try our chocolates today and discover the perfect balance of flavor</h3>
+            <ol class="made-list">
+                <li class="made-item">At the same time, prepare a water bath. Melt the butter on it.</li>
+                <li class="made-item">"Mix" the milk mixture and already liquid butter. Mix thoroughly with a silicone spatula so that the mass becomes uniform and silky.</li>
+                <li class="made-item">Heat the mixture over low heat, letting it barely boil.</li>
+                <li class="made-item">Pour the chocolate into special containers (can be replaced with ice molds). Allow to cool and harden.</li>
+                <li class="made-item">Heat the milk in a saucepan without bringing it to a boil. Add sugar and cocoa powder.</li>
+            </ol>
+        </section>
+
+        <!-- products section -->
+        <section class="products section" id="products">
+         <h2 class="products-title section-title">OUR <span class="accent">PRODUCTS</span></h2>   
+         <!-- ul>li*8>img[src="./image/products/img-$.jpg"width="230"height="201"]+h3+p+p -->
+         <ul class="products-list">
+             <li class="products-item">
+                <img class="products-pic" src="./images/products/img1.jpg" alt="ORANGE dark chocolate" width="230" height="201">
+                <h3 class="products-name">ORANGE</h3>
+                <p class="products-type">Dark chocolate</p>
+                <p class="products-price">45 UAH</p>
+            </li>
+               <li class="products-item">
+                <img class="products-pic" src="./images/products/img2.jpg" alt="APPLE & CRANBERRY milk chocolate" width="230" height="201">
+                <h3 class="products-name">APPLE & CRANBERRY</h3>
+                <p class="products-type">Milk chocolate</p>
+                <p class="products-price">50 UAH</p>
+            </li>
+         
+            <li class="products-item">
+                <img class="products-pic" src="./images/products/img3.jpg" alt="Lime and Sea Salt Dark chocolate" width="230" height="201">
+                <h3 class="products-name">LIME & SEA SALT</h3>
+                <p class="products-type">Dark chocolate</p>
+                <p class="products-price">66 UAH</p>
+            </li>
+            <li class="products-item">
+                <img class="products-pic" src="./images/products/img4.jpg" alt="Pineapple Dark chocolate" width="230" height="201">
+                <h3 class="products-name">PINEAPPLE</h3>
+                <p class="products-type">Dark chocolate</p>
+                <p class="products-price">54 UAH</p>
+            </li>
+            <li class="products-item">
+                <img class="products-pic" src="./images/products/img5.jpg" alt="Classic Milk chocolate" width="230" height="201">
+                <h3 class="products-name">CLASSIC</h3>
+                <p class="products-type">Milk chocolate</p>
+                <p class="products-price">45 UAH</p>
+            </li>
+              <li class="products-item">
+                <img class="products-pic" src="./images/products/img6.jpg" alt="Honey Milk chocolate" width="230" height="201">
+                <h3 class="products-name">HONEY</h3>
+                <p class="products-type">Milk chocolate</p>
+                <p class="products-price">50 UAH</p>
+            </li>
+            <li class="products-item">
+                <img class="products-pic" src="./images/products/img7.jpg" alt="Dark chocolate roasted winter fruits" width="230" height="201">
+                <h3 class="products-name">ROASTED FRUITS</h3>
+                <p class="products-type">Dark chocolate</p>
+                <p class="products-price">66 UAH</p>
+            </li>
+         
+            <li class="products-item">
+                <img class="products-pic" src="./images/products/img8.jpg" alt="Classic White chocolate" width="230" height="201">
+                <h3 class="products-name">CLASSIC</h3>
+                <p class="products-type">White chocolate</p>
+                <p class="products-price">54 UAH</p>
+            </li>
+         </ul>
+        </section>
+
+        <!-- bestesellers section -->
+        <section class="bestsellers section" id="bestsellers">
+            <!--  h2+ul>li*3>img[src='./images/bestsellers/img-$.jpg'width="368"he height="464"]+h3 -->
+            <h2 class="section-title section-title"><span class="accent">TOP</span> SELLERS</h2>
+            <ul class="bestsellers-list">
+                <li class="bestsellers-item">
+                    <img class="bestsellers-ill" src="./images/bestsellers/ill-1.jpg" alt="CHOCOLATE WITH NUTS" width="368" height="464">
+                    <h3 class="bestsellers-caption">CHOCOLATE WITH NUTS</h3>
+                </li>
+                <li class="bestsellers-item">
+                    <img class="bestsellers-ill" src="./images/bestsellers/ill-2.jpg" alt="CHOCOLATE WITH FRUITS" width="368" height="464">
+                    <h3 class="bestsellers-caption">CHOCOLATE WITH FRUITS</h3>
+                </li>
+                <li class="bestsellers-item">
+                    <img class="bestsellers-ill" src="./images/bestsellers/ill-3.jpg" alt="DARK CHOCOLATE" width="368" height="464">
+                    <h3 class="bestsellers-caption">DARK CHOCOLATE</h3>
+                </li>
+            </ul>
+        </section>
+
+        <!--reviews section -->
+        <section class="reviews section" id="reviews">
+            <!-- h2+(ul>li*3>img[src="./images/reviews/img-$.png" width="80" height="80"]+h3+p)+button[type="button"] -->
+            <h2 class="reviews-title section-title"><span class="accent">CHOCOLATE</span> IS LOVED</h2>
+            <ul class="reviews-list">
+                <li class="reviews-item">
+                    <img class="reviews-avatar" src="./images/reviews/img-01.png" alt="A young woman with auburn hair in a circular profile picture frame." width="80" height="80">
+                    <h3 class="reviews-author">Victoria Dobrzhanska</h3>
+                    <p class="reviews-text">"I love this chocolate bar. Perfect combination of light crispy wafer, covered in a thin layer chocolate."</p>
+                </li>
+                <li class="reviews-item">
+                    <img class="reviews-avatar" src="./images/reviews/img-02.png" 
+                    alt="A close-up portrait of a young man with a serious expression in a circular frame." 
+                    width="80" 
+                    height="80">
+                    <h3 class="reviews-author">Nazar Babenko</h3>
+                    <p class="reviews-text">"This chocolate confection is a delight! A delight! The wafer is light and crisp, the hazelnut cream is smooth, and the chocolate is good."</p>
+                </li>
+                <li class="reviews-item">
+                    <img class="reviews-avatar" src="./images/reviews/img-03.png" alt="A portrait of a young smiling woman with long brown hair at sunset in a circular frame." width="80" height="80">
+                    <h3 class="reviews-author">Olena Kampusch</h3>
+                    <p  class="reviews-text">"Chocolate is a family favourite treat. Love the delicious smooth chocolate and the creaminess inside. The wafer is soft but crunchy."</p>
+                </li>
+            </ul>
+            <button class="btn btn-outlined secondary" type="button">Leave a review</button>
+        </section>
+
+    </main>
+
+    <!-- footer -->
+    <footer class="footer" id="footer">
+        <p class="footer-slogan"><span class="accent">Chokolate</span> a delicius cure for a bad day</p>
+        <p class="footer-caption">Social networks</p>
+        
+  <ul class="social">
+        <li class="social-item" >
+            <!-- aria-label="link to facebook" dla opysu v alt-->
+
+             <!-- target="_blank" sob otkryvav v inshom vikni sylku -->
+              <!-- rel="noopener noreferrer" zahyschae vid pidminy posylannya bezpeka korystuvacham -->
+          <a class="social-link" href="https://facebook.com" aria-label="link to facebook" target="_blank" rel="noopener noreferrer">
+            <img class="social-icons" src="./images/icons/facebook.svg" alt="facebook icon" width="24" height="24"/>
+        </a>
+        </li>
+        <li class="social-item">
+          <a class="social-link" href="https://instagram.com" target="_blank" rel="noopener noreferrer"
+            >
+            <img class="social-icons" src="./images/icons/instagram.svg" aria-label="link to instagram"  alt="instagram icon" width="24" height="24">
+            </a>
+        </li>
+        <li class="social-item">
+          <a class="social-link" href="https://twitter.com" aria-label="link to twitter" target="_blank" rel="noopener noreferrer">
+            
+            <img class="social-icons" src="./images/icons/twitter.svg" alt="twitter icon" width="24" height="24">
+        </a>
+        </li>
+      </ul>
+
+      <address class="contacts">
+        <p class="footer-caption">Contact us</p>
+        <ul class="contacts-list">
+            <li class="contacts-item">
+                <a class="contacts-link" href="tel:+380684439426">+380 (68) 443-94-26</a></li>
+            <li class="contacts-item">
+                <a class="contacts-link" href="mailto:simplychoc@gmail.com">simplychoc@gmail.com</a></li>
+        </ul>
+       <ul class="footer-menu">
+          <li class="footer-menu-item">
+            <a class="footer-menu-link" href="#">Home</a>
+          </li>
+          <li class="footer-menu-item">
+            <a class="footer-menu-link" href="#made">How it&#39;s Made?</a>
+          </li>
+          <li class="footer-menu-item">
+            <a class="footer-menu-link" href="#reviews">Chocolate is loved</a>
+          </li>
+        </ul>
+      </address>
+    </footer>
+  </body>
+</html>
